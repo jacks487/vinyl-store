@@ -17,7 +17,17 @@ h1 {
 h2 {
   letter-spacing: -1px;
   margin-bottom: 30px;
-  margin-top: 70px;
+  margin-top: 100px;
+  text-align: center;
+  font-weight: normal;
+  color: #96897f;
+  text-align: center;
+}
+
+h3 {
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  margin-top: 150px;
   text-align: center;
   font-weight: normal;
   color: #96897f;
@@ -31,4 +41,28 @@ p{
 img{
     border-radius: 25px;
     border: 6px solid #625750;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  a {
+    color: #555;
+    &:hover {
+      color: #222;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
 }
