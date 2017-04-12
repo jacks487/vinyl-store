@@ -1,8 +1,7 @@
 <% provide(:title, "Shop") %>
 <h3>Shop</h3>
 	
-<p> We have a large selection of records. We have new records of todays music,
-	and older records of all types.</p>
+<p> We provide a small selection of vintage vinyl records.</p>
 	
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -13,17 +12,26 @@
 </div>
 
 	
-<h4>Top Sellers:</h4>
+<h4>Current Sales:</h4>
 
 <p><ol>
-  <li>Blink 182</li>
+  <li>Carly Simon</li>
+  <li>Cher</li>
+  <li>Frank Sinatra</li>
+  <li>Lana del Ray</li>
   <li>Pink Floyd</li>
-  <li>Nirvana</li>
+  <li>Punks Not Dead</li>
+  <li>Sade</li>
+  <li>Toto</li>
+  <li>Zeppelin</li>
 </ol></p>
 	
-<h4 align="center">TurnTables</h4>
+<h4 align="center">Other Products</h4>
 	
-<p style="color:darkred"> We also have a small selection of record players to choose from.</p>
+<center><p> We also have a vintige sound system and record player for sale this month.</p></center>
 	
-<center><img src="images/RecordPlayer.jpg" alt="RecordPlayer" style="float:center" width="225"/></center>
-<p> One of our vintage record players.</p>
+<center>
+  <%= link_to image_tag("System.jpg", alt: "Vinyls"),
+            'https://c.slashgear.com/wp-content/uploads/2015/12/' %>
+</center>
+
