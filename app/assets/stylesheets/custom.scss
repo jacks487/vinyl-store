@@ -2,13 +2,29 @@
 @import "bootstrap";
 
 body {
-	background-color: #625750;
+	background-color: #c6bcb6;
 	padding-top: 200px;
 }
 
 section {
   overflow: auto;
 }
+
+.table th, .table td{
+   border-top: none !important;
+   height: 50%;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+td {
+  padding-top: .7em;
+  padding-bottom: .7em;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
@@ -19,7 +35,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
-  color: #96897f;
+  color: #c6bcb6;
 }
 
 h2 {
@@ -29,7 +45,7 @@ h2 {
   margin-top: 10px;
   text-align: center;
   font-weight: normal;
-  color: #96897f;
+  color: #625750;
 }
 
 h3 {
@@ -38,12 +54,22 @@ h3 {
   margin-top: 10px;
   text-align: center;
   font-weight: normal;
-  color: #96897f;
+  color: #625750;
+  text-align: center;
+}
+
+h4 {
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: normal;
+  color: #625750;
   text-align: center;
 }
 
 p{
-    color: #c6bcb6;
+    color: #625750;
     font-size: 1.1em;
     line-height: 1.7em;
 }
@@ -57,7 +83,7 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #777;
+  color: #625750;
   a {
     color: #555;
     &:hover {
@@ -74,6 +100,10 @@ footer {
       float: left;
       margin-left: 15px;
     }
+  }
+  
+  header .a{
+    color: #625750;
   }
   
   @mixin box_sizing {
@@ -214,7 +244,7 @@ input {
 
 aside {
   textarea {
-    height: 100px;
+    height: 150px;
     margin-bottom: 5px;
   }
 }

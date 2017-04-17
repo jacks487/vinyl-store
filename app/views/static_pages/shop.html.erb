@@ -1,26 +1,32 @@
 <% provide(:title, "Shop") %>
 <h3>Shop</h3>
 	
-<p> We provide a small selection of vintage vinyl records.</p>
 	
-	
-<h4>Current Sales:</h4>
+<h4>Currently Offering</h4>
 
-<p><ol>
-  <li>Carly Simon</li>
-  <li>Cher</li>
-  <li>Frank Sinatra</li>
-  <li>Lana del Ray</li>
-  <li>Pink Floyd</li>
-  <li>Punks Not Dead</li>
-  <li>Sade</li>
-  <li>Toto</li>
-  <li>Zeppelin</li>
-</ol></p>
+<center>
+<table>
+<tr>
+	<td><center>Carly Simon <br> Boys in the Trees <br> $8 <br> <%= link_to image_tag("Carly Simon.jpg", alt: "Vinyls", height: '250') %></center></td>
+	<td><center>Sonny & Cher <br> Greatest Hits <br> $15 <br> <%= link_to image_tag("Cher.jpg", alt: "Vinyls", height: '250') %></center></td>
+	<td><center>Frank Sinatra <br> Nice 'n' Easy <br> $8 <br> <%= link_to image_tag("Frank Sinatra.jpg", alt: "Vinyls", height: '250') %></center></td>
+</tr>
+<tr>
+	<td><center>Lana del Ray <br> Ultraviolence <br> $29 <br> <%= link_to image_tag("Lana.jpg", alt: "Vinyls", height: '250') %></center></td>
+	<td><center>Pink Floyd <br> Eclipse <br> $45 <br> <%= link_to image_tag("Pink Floyd.jpg", alt: "Vinyls", height: '250') %></center></td>
+	<td><center>Punks Not Dead <br> The Exploited <br> $5 <br> <%= link_to image_tag("Punks Not Dead.jpg", alt: "Vinyls", height: '250') %></center></td>
+</tr>
+<tr>
+	<td><center>Toto <br> Isolation <br> $5 <br> <%= link_to image_tag("Toto.jpg", alt: "Vinyls", height: '250') %></center></td>
+  <td><center>Sade <br> Promise <br> $8 <br> <%= link_to image_tag("Sade.jpg", alt: "Vinyls", height: '250') %></center></td>
+  <td><center>Led Zeppelin <br> The Song Remains the Same <br> $45 <br> <%= link_to image_tag("Zeppelin.jpg", alt: "Vinyls", height: '250') %></center></td>
+</tr>
+</table>
+</center>
 	
 <h4 align="center">Other Products</h4>
 	
-<center><p> We also have a vintige sound system and record player for sale this month.</p></center>
+<center><p> We also have a vintage sound system and record player for sale this month.</p></center>
 	
 <center>
   <%= link_to image_tag("System.jpg", alt: "Vinyls"),
